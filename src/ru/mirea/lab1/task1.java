@@ -10,4 +10,4 @@ public class task1 {
         double average = arr_sum / array.length;
         System.out.println("сумма = " + arr_sum + "\nсреднее арифметическое = " + average);
     }
-}//1123123123123
+}//112312312312333
