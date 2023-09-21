@@ -1,4 +1,6 @@
-package ru.mirea.lab2;
+package ru.mirea.lab2.task2;
+
+import ru.mirea.lab2.task2.Ball;
 
 public class TestBall {
     public static void main(String[] args){

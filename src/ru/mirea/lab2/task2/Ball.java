@@ -1,4 +1,4 @@
-package ru.mirea.lab2;
+package ru.mirea.lab2.task2;
 
 public class Ball {
     private double x = 0.0;
@@ -30,10 +30,10 @@ public class Ball {
         this.y = y;
     }
     public void move(double xDisp, double yDisp){
-        System.out.println("Move ball on (" +xDisp + ", " + yDisp + ')' );
+        System.out.println("Мяч движется на (" +xDisp + ", " + yDisp + ')' );
     }
 
     public String toString(){
-        return "Ball{" + "x = " + x + ", y = " + y + '}';
+        return "Мяч{" + "x = " + x + ", y = " + y + '}';
     }
 }
