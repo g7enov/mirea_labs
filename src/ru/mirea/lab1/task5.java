@@ -1,11 +1,12 @@
 package ru.mirea.lab1;
+import java.math.BigInteger;
 import java.util.Scanner;
 
 public class task5  {
-    public static int factorial(int x){
-        int result = 1;
+    public static BigInteger factorial(int x){
+        BigInteger result = BigInteger.ONE;
         for(int i = 1; i<=x; i++)
-            result *= i;
+            result = result.multiply(BigInteger.valueOf(i));
         return result;
     }
 

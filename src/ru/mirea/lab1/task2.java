@@ -24,7 +24,6 @@ public class task2 {
             i++;
         }
         System.out.println("сумма = " + arr_sum + "\nминимальный элемент = " + arr_min + "\nмаксимальный элемент = " + arr_max);
-        //System.out.println("минимальный элемент = " + arr_min + "\nмаксимальный элемент = " + arr_max);
 
     }
 }
