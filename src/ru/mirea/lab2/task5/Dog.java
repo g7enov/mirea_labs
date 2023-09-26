@@ -6,7 +6,8 @@ public class Dog {
 
     public Dog(String name, int age){
         this.name = name;
-        this.age = age;
+        if(age > this.age)
+            this.age = age;
     }
     public String getName() {
         return name;
@@ -24,11 +25,12 @@ public class Dog {
         this.age = age;
     }
 
-    public int toHumAge(int age){
-        return age * 7;
+    public int toHumAge(){
+        return this.age * 7;
     }
 
     public String toString(){
-        return "Имя: " + name + "возраст: " + age + "'Человеческий' возраст: " + toHumAge(age);
+        return "Dog{" + "name='" + name + '\'' +
+                ", age='" + age + '}';
     }
 }
